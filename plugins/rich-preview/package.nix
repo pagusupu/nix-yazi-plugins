@@ -10,8 +10,8 @@ stdenv.mkDerivation {
   src = fetchFromGitHub {
     owner = "AnirudhG07";
     repo = "rich-preview.yazi";
-    rev = "fe432192db970b5c3f8a9f037280c7431d9c2abe";
-    hash = "sha256-sKKdZJxPcbGy9lMhnwbklWEhUjYArVhQyoiH3kuMVzY=";
+    rev = "6752254b3e1c6f947977776bc1a515395ec73eb9";
+    hash = "sha256-TwL0gIcDhp0hMnC4dPqaVWIXhghy977DmZ+yPoF/N98=";
   };
 
   buildPhase = ''
