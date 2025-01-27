@@ -66,12 +66,15 @@ If you run the release version, use the corresponding branch, for example `yazi-
 | `hide-preview` | Switch the preview pane between hidden and shown | https://github.com/yazi-rs/plugins/tree/main/hide-preview.yazi |
 | `jump-to-char` | Vim-like f<char>, jump to the next file whose name starts with <char> | https://github.com/yazi-rs/plugins/tree/main/jump-to-char.yazi |
 | `max-preview` | Maximize or restore the preview pane | https://github.com/yazi-rs/plugins/tree/main/max-preview.yazi |
+| `mediainfo` | Yazi plugin for previewing media files | https://github.com/boydaihungst/mediainfo.yazi |
+| `no-status` | Remove the status bar | https://github.com/yazi-rs/plugins/tree/main/no-status.yazi |
 | `ouch` | A Yazi plugin to preview archives | https://github.com/ndtoan96/ouch.yazi |
 | `relative-motions` | basic vim motions like 3k, 12j, 10gg | https://github.com/dedukun/relative-motions.yazi |
 | `rich-preview` | Rich preview plugin for yazi file manager | https://github.com/AnirudhG07/rich-preview.yazi |
 | `smart-filter` | A Yazi plugin that makes filters smarter: continuous filtering, automatically enter unique directory, open file on submitting | https://github.com/yazi-rs/plugins/tree/main/smart-filter.yazi |
 | `starship` | Show starship prompt in header | https://github.com/Rolv-Apneseth/starship.yazi |
 | `system-clipboard` | Cross platform implementation of a simple system clipboard for yazi file manager | https://github.com/orhnk/system-clipboard.yazi |
+| `torrent-preview` | Yazi plugin to preview `application/x-bittorrent` files | https://github.com/kirasok/torrent-preview.yazi
 
 ## Contributing
 To request a new plugin or an update to an existing one, you can open an issue.
