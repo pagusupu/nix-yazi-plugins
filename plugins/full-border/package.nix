@@ -3,7 +3,6 @@
   stdenv,
   fetchFromGitHub,
 }:
-
 stdenv.mkDerivation {
   pname = "yaziPlugins-full-border";
   version = "unstable-2024-12-14";
@@ -11,8 +10,8 @@ stdenv.mkDerivation {
   src = fetchFromGitHub {
     owner = "yazi-rs";
     repo = "plugins";
-    rev = "62f078905b4de55f19e328452c8a1f889ff2f6f4";
-    sha256 = "sha256-PSVzjC1sdaIOtK5ave4kn3Ck8YwpjO3N9uV/WE6Skdo=";
+    rev = "8945e543ebbaa25de155b7101a917eba007252f2";
+    hash = "sha256-ko/vvItKtQSz5rbP3TMb4R1bywW2q8hj7E/A++vhVqQ=";
   };
 
   buildPhase = ''
@@ -24,7 +23,7 @@ stdenv.mkDerivation {
     description = "Add a full border to Yazi to make it look fancier.";
     homepage = "https://github.com/yazi-rs/plugins/tree/main/full-border.yazi";
     license = licenses.mit;
-    maintainers = [ ];
+    maintainers = [];
     platforms = platforms.all;
   };
 }
